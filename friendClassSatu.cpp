@@ -24,5 +24,9 @@ public:
 
 void siswa::displayAll(orang &a)
 {
+     cout << Id << endl << a.nama;
+}
+void orang::setNama(string pNama)
+{
      
 }
