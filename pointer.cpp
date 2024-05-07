@@ -32,7 +32,7 @@ public :
 
 int main()
 {
-    persegiPanjan pp;
+    persegiPanjang pp;
     segitiga sg;
     cout <<  "Masukkan Panjang : " ;
     cin >> pp.panjang;
@@ -40,4 +40,8 @@ int main()
     cin >> pp.lebar;
     cout << "Masukkan Tinggi : ";
     cin >> sg.tinggi;
+    cout << "Masukkan Alas : ";
+    cin >> sg.alas;
+    cout << "Luas persegi Panjang : " << pp.luasPersegiPanjang(pp.panjang, pp.lebar)  << endl ;
+    cout << "Luas Segitiga : " << sg.luasSegitiga(sg.alas, sg.tinggi) << endl;
 }
