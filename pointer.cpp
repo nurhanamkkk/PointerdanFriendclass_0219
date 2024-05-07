@@ -32,7 +32,7 @@ public :
 
 int main()
 {
-    persegiPanjang pp;
+    persegiPanjan pp;
     segitiga sg;
     cout <<  "Masukkan Panjang : " ;
     cin >> pp.panjang;
