@@ -14,5 +14,30 @@ public :
 
 class segitiga
 {
-    
+
+public : 
+     int tinggi,
+          alas;
+
+     int luasSegitiga(int a, int t)
+     {
+        return 0.5 * a * t;
+     }
+
+     int hitung(persegiPanjang p)
+     {
+        return p.panjang;
+     }
+};
+
+int main()
+{
+    persegiPanjang pp;
+    segitiga sg;
+    cout <<  "Masukkan Panjang : " ;
+    cin >> pp.panjang;
+    cout << "Masukkan Lebar : ";
+    cin >> pp.lebar;
+    cout << "Masukkan Tinggi : ";
+    cin >> sg.tinggi;
 }
